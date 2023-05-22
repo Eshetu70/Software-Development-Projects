@@ -25,3 +25,13 @@ sql
 Copy code
 npm start
 Open your web browser and navigate to http://localhost:3000 to access the Game Central web application.
+
+## Folder Structure
+- **app.js:** The main entry point of the Node.js server application.
+- **public/:** Directory containing static assets, including CSS stylesheets and client-side JavaScript files.
+- **views/:** Directory containing EJS templates for rendering dynamic content.
+- **controllers/:** Directory containing server-side logic and route handlers.
+- **models/:** Directory containing MongoDB models and database schemas.
+- **uploads/:** Directory to store uploaded game files.
+- **routes/:** Directory containing Express router definitions for different endpoints.
+- **config/:** Directory to store configuration files, including database connection settings and authentication credentials.
